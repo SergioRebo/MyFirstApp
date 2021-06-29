@@ -27,10 +27,11 @@ namespace MyFirstApp.ForeachLoop
             student.Age = Convert.ToInt32(txtAge.Text);
 
             var studentList = new ArrayList();
+            //Boxing
             studentList.Add(student);
 
             foreach (var _student in studentList)
-            {
+            {   //Unboxing
                 MessageBox.Show(((Student)_student).Name +
                     " " + ((Student)_student).Surname);
             }
