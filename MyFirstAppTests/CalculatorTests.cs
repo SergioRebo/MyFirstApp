@@ -5,7 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using static Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
+    
 namespace MyFirstApp.Tests
 {
     [TestClass()]
