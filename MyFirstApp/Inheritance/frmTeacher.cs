@@ -30,13 +30,13 @@ namespace MyFirstApp.Inheritance
             //como las matryoskas, la izquierda la grande y la derecha la clase más pequeña
 
             person1.Name = "Cèsar";
-            person1.Surname = "Ferrater";
             //Unboxing para sacar salario y subject
             ((Teacher)person1).Salary = 50000.00f;
             ((Teacher)person1).Subject = "Materials Physics";
 
-            MessageBox.Show("The " + ((Teacher)person1).Subject + " teacher's name is " + person1.Name + " " + person1.Surname +
-                " and his salary is " + ((Teacher)person1).Salary + " €.");
+            MessageBox.Show("The " + ((Teacher)person1).Subject + " teacher's name is " + person1.Name + " " + 
+                " and his salary is " + ((Teacher)person1).Salary + " €."); 
+
         }
     }
 }
