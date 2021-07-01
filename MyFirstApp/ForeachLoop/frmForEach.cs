@@ -37,5 +37,25 @@ namespace MyFirstApp.ForeachLoop
             }
 
         }
+
+        private void TxtAge_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtStudentId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtSurname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
