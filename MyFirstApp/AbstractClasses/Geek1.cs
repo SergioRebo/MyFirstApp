@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace MyFirstApp.AbstractClasses
 {
-    class Geek1
+    public class Geek1 : GeeksForGeeks
     {
+        public override object Clone()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void gfg()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

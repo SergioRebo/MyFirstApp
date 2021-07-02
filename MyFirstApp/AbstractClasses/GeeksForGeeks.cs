@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace MyFirstApp.AbstractClasses
 {
-    class GeeksForGeeks
+    public abstract class GeeksForGeeks : ICloneable
     {
+        public abstract object Clone();
+
+        public abstract void gfg();
+
+        public string Test()
+        {
+            return "We are testing";
+        }
+
+        public virtual string VirtualTest()
+        {
+            return "We are testing in virtualmethod";
+        }
     }
 }
